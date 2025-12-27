@@ -1,7 +1,11 @@
 * {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+ font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+
 
 body{
   background:#faf7f2;
@@ -14,6 +18,9 @@ body{
   align-items: center;
   padding: 15px 30px;
   background: #fff; 
+}
+.logo{
+  width:110px;
 }
 
 ul{
@@ -52,97 +59,32 @@ a{
   transition:0.3s;
 }
 
-.content{
-  padding;10px;
-  text-align:center;
-}
-
-.table{
-  margin: auto;
-  width: 88%;
-  border-collapse: collapse;
-}
-
-td, th {
-  border: solid 1px #ccc;
-  padding: 10px;
-}
-
-th{
-  background:#e6d3c5;
-}
-
-@media (max-width: 768px) {
-  ul {
-    flex-direction: column;
-    display: none;
-  }
-
-  .hero h1 {
-    font-size: 2.2rem;
-  }
-
-  table {
-    width: 100%;
-  }
-}
-* {
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-body{
-  background:#faf7f2;
-  color: #333;
-}
-
-.navbar{
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  background: #fff; 
-}
-
-ul{
-  list-style:none;
-  display:flex;
-}
-
-li{
- margin-left:20px;
-}
-a{
-  text-decoration:none;
-  color:#333;
-}
-
-.heading{
+.desc{
   text-align: center;
-  padding: 80px 20px;
-  background: #e6d3c5;
+  padding: 20px 80px;
 }
 
-.heading h1{
-  font-size: 3em;
-}    
-
-.heading button{
-  padding: 12px 24px;
-   border: none;
-  background: #a9745c;
-  color: #fff;
-  cursor: pointer;
+.desc h2{
+  font-size: 3rem;
+}
+.desc p{
+  font-size: 1.2em;
 }
 
-.heading button:hover{
-  background:#7a4c33;
-  transition:0.3s;
+div{
+  text-align: center;
+  border:0px dotted blue;
+  padding-top:30px;
 }
 
 .content{
   padding;10px;
   text-align:center;
+  border:0px solid yellow;
+}
+
+.content h2{
+  font-size: 3rem;
 }
 
 .table{
