@@ -101,7 +101,7 @@ td, th {
 th{
   background:#e6d3c5;
 }
-table img{
+.table img{
   object-fit:cover;
 }
 
