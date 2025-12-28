@@ -114,10 +114,12 @@ div{
 td {
   border: solid 1px #ccc;
   padding: 10px;
+  width: auto;
 }
 
 th{
   background:#e6d3c5;
+  padding: 30px;
 }
 .table img{
   object-fit:cover;
