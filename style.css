@@ -17,7 +17,7 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background: #fff; 
+  background: ##e8c4c6; 
 }
 .logo{
   width:110px;
@@ -120,7 +120,7 @@ th{
   background:#e6d3c5;
 }
 .table img{
-  object-fit:cover;
+  object-fit:contain;
    height:100px;
   width:100px;
 }
