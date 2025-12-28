@@ -35,7 +35,27 @@ a{
   text-decoration:none;
   color:#333;
 }
+.button-menu {
+  position: absolute;
+  top: 50%;
+  margin-top: 125px;
+  left: 50%;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  padding: 0px 20px 10px 20px;
+}
 
+.button-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+
+.button-menu:hover {
+  background: #e8c4c6;
+  border: 2px solid #e8c4c6;
+  transition:0.3s;
+}
 .heading{
   text-align: center;
   padding: 80px 20px;
