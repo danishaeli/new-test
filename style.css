@@ -36,9 +36,7 @@ a{
   color:#333;
 }
 .button-menu {
-  position: absolute;
   top: 50%;
-  margin-top: 125px;
   left: 50%;
   border: 2px solid #fff;
   border-radius: 40px;
